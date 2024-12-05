@@ -12,14 +12,14 @@ This is a simple web application with a login and signup page built using Flask 
 
 ## Project Structure:
 login-signup-app/
-│
-├── app.py                   # Main Flask backend code
-├── static/
-│   ├── css/
-│   │   └── styles.css       # Custom CSS file for frontend
-│   └── js/
-│       └── app.js           # JavaScript for frontend interactions
-├── templates/
+
+app.py                   # Main Flask backend code
+ static/
+     css/
+       styles.css       # Custom CSS file for frontend
+     js/
+       app.js           # JavaScript for frontend interactions
+ templates/
 │   └── index.html           # HTML template for login/signup page
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
