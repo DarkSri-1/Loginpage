@@ -17,4 +17,5 @@ This is a simple web application with a login and signup page built using Flask 
 - Flask-Bcrypt
   
 ## Installation in Bash
+#Install the required dependencies 
 pip install -r requirements.txt
