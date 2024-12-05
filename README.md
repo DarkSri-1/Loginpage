@@ -18,7 +18,3 @@ This is a simple web application with a login and signup page built using Flask 
   
 ## Installation in Bash
 pip install -r requirements.txt
-
- Clone the repository:
-   ```bash
-   git clone 
