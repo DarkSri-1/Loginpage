@@ -9,6 +9,21 @@ This is a simple web application with a login and signup page built using Flask 
 - Backend: Flask application with user authentication (password hashing and verification).
 - Database: SQLite for storing user data (can be easily switched to other databases like PostgreSQL or MySQL).
 
+
+## Project Structure:
+login-signup-app/
+│
+├── app.py                   # Main Flask backend code
+├── static/
+│   ├── css/
+│   │   └── styles.css       # Custom CSS file for frontend
+│   └── js/
+│       └── app.js           # JavaScript for frontend interactions
+├── templates/
+│   └── index.html           # HTML template for login/signup page
+├── requirements.txt         # Python dependencies
+└── README.md                # Project documentation
+
 ### Requirements
 
 - Python 3.x
