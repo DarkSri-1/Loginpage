@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login & Signup</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+  <div class="auth-container">
+    <div class="form-container">
+      <div class="form-header">
+        <button id="loginBtn" class="active">Login</button>
+        <button id="signupBtn">Signup</button>
+      </div>
+
+      <!-- Login Form -->
+      <form id="loginForm" class="form active">
+        <h2>Login</h2>
+        <input type="email" id="loginEmail" placeholder="Email" required>
+        <span id="loginEmailError" class="error-msg"></span>
+        <input type="password" id="loginPassword" placeholder="Password" required>
+        <span id="loginPasswordError" class="error-msg"></span>
+        <button type="submit">Login</button>
+      </form>
+
+      <!-- Signup Form -->
+      <form id="signupForm" class="form">
+        <h2>Signup</h2>
+        <input type="text" id="signupUsername" placeholder="Username" required>
+        <span id="signupUsernameError" class="error-msg"></span>
+        <input type="email" id="signupEmail" placeholder="Email" required>
+        <span id="signupEmailError" class="error-msg"></span>
+        <input type="password" id="signupPassword" placeholder="Password" required>
+        <span id="signupPasswordError" class="error-msg"></span>
+        <button type="submit">Signup</button>
+      </form>
+    </div>
+  </div>
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
